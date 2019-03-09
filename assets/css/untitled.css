@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Kirvy';
+  src: url('../fonts/Kirvy-Regular.woff2') format('woff2'),
+      url('../fonts/Kirvy-Regular.woff2') format('woff'),
+      url('../fonts/Kirvy-Regular.ttf') format('truetype'),
+      url('../fonts/Kirvy-Regular.svg') format('svg')
+      ;
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+h
+
+
 .navbar-dark .navbar-brand, .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-nav .nav-link {
   color: #AD0D2E;
 }
@@ -39,16 +54,21 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Kirvy', sans-serif;
+}
+
+p,a,div,span{
+  font-family: 'Karla', sans-serif;
 }
 
 .navbar-dark .navbar-toggler-icon {
   background-image: url("../img/ic_menu.svg");
 }
-
+/* FHiJWoBodrs */
+/* tUyYnO_VdP0 */
 .main-image {
   object-fit: cover;
-  background-image: url("https://source.unsplash.com/tUyYnO_VdP0/1440x900");
+  background-image: url("https://source.unsplash.com/FHiJWoBodrs/1440x900");
   background-size: cover;
   background-position: center;
   padding-top: 100px;
@@ -61,8 +81,29 @@ h1, h2, h3, h4, h5, h6 {
   border-color: rgb(175, 40, 67);
 }
 
+.btn-primary:active {
+  color: #fff;
+  background-color: rgb(228, 146, 162);
+  border-color: rgb(175, 40, 67);
+}
+
 .btn-primary {
   color: #fff;
   background-color: #AD0D2E;
   border-color: #AD0D2E;
+  
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: rgb(228, 146, 162);
+  border-color: rgb(175, 40, 67);
+}
+
+.btn-primary.focus, .btn-primary:focus{
+  box-shadow: 0 0 0 .2rem rgb(228, 146, 162);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgb(228, 146, 162);
 }
