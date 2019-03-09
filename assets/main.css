@@ -1,0 +1,33 @@
+.gradient{
+    background:white;
+    color: darkslategrey;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-nav .nav-link {
+    color: red;
+  }
+
+  .ellipsise{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-height: 1.5;        /* fallback */
+    max-height: 4.5;
+  }
+  
+  .cardd {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    /* background-color: transparent; */
+    background-clip: border-box;
+    /* border: 0px solid rgba(0,0,0,.125); */
+    border-radius: .25rem;
+}
+  
